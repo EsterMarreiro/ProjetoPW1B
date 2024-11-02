@@ -7,7 +7,7 @@
     $assunto = $_REQUEST['assunto'];
     $mensagem = $_REQUEST['mensagem'];
 
-    $sql = "INSERT INTO contato 
+    $sql = "INSERT INTO contatos 
             (nome,email,assunto,mensagem) VALUES
             ('$nome','$email','$assunto','$mensagem')
             ";

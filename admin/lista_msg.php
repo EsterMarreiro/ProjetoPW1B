@@ -3,7 +3,7 @@
 
     include_once("../config.inc.php");
 
-    $sql = mysqli_query($conexao,"SELECT * FROM contato");
+    $sql = mysqli_query($conexao,"SELECT * FROM contatos");
 
     while($tabela = mysqli_fetch_array($sql)){
         echo "Nome: $tabela[nome] <br>";

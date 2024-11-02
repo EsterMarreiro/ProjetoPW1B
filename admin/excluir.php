@@ -4,7 +4,7 @@
 
     $id = $_REQUEST['id'];
 
-    $sql = mysqli_query($conexao,"DELETE FROM contato WHERE id = $id");
+    $sql = mysqli_query($conexao,"DELETE FROM contatos WHERE id = $id");
 
     mysqli_close($conexao);
 
