@@ -1,5 +1,7 @@
 <?php
 
+    // arquivo que serve para excluir uma mensagem, e consequentemente um contato, da tabela contatos do banco de dados
+    
     include_once("../config.inc.php");
 
     $id = $_REQUEST['id'];
