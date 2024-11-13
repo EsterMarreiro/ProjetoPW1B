@@ -15,7 +15,7 @@ if (mysqli_num_rows($resultado) > 0) {
     $dados = mysqli_fetch_array($resultado);
     if ($senha == $dados['senha']) {
         // Login válido
-        session_start();
+        session_start();    //armazena os dados no servidor; se for como cookies, armazena de maneira temporária no teu computador
         $_SESSION['user_id'] = $dados['id'];
         $_SESSION['usuario'] = $dados['usuario'];
 
