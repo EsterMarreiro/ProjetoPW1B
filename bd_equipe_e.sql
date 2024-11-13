@@ -135,7 +135,7 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`id`, `usuario`, `senha`) VALUES
-(1, 'ester', '000000');
+(1, 'equipe', '000000');
 
 --
 -- Índices para tabelas despejadas
