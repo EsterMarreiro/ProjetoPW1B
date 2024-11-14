@@ -3,8 +3,11 @@
     // arquivo que serve para excluir uma mensagem, e consequentemente um contato, da tabela contatos do banco de dados
     
     include_once("../config.inc.php");
+    include 'crud.php';
 
-    $id = $_REQUEST['id'];
+    excluiRegistro($conexao, 'contatos');
+
+/*    $id = $_REQUEST['id'];
 
     $sql = mysqli_query($conexao,"DELETE FROM contatos WHERE id = $id");
 
@@ -15,5 +18,7 @@
     }
 
     mysqli_close($conexao);
+
+    */
 
 ?>
